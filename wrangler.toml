@@ -1,12 +1,12 @@
-name = "jsonhero-io"
+name = "muddy-lab-61c8"
 type = "javascript"
 compatibility_date = "2022-02-01"
 
-account_id = "0e405dda228e3448f1366acb0bc341ef"
+account_id = "c71b1eab1ad31ccbb2292a2665edd5d7"
 workers_dev = true
 
 kv_namespaces = [ 
-  { binding = "DOCUMENTS", id = "8c6a9a71fc504abdaaa7aa409c7b2abd" }
+  { binding = "DOCUMENTS", id = "8059edfbbb774fb39e95094d43909b96", preview_id = "14e91f3ac2fd4f3985b9062f4f2582e3" }
 ]
 
 [vars]
@@ -27,14 +27,14 @@ format="service-worker"
 route = "jsonhero.io/*"
 zone_id = "af3c12add61e94b88b3d2cbfb6f65782"
 kv_namespaces = [ 
-  { binding = "DOCUMENTS", id = "e517c369774a443eba95afff9128f7b6" }
+  { binding = "DOCUMENTS", id = "e517c369774a443eba95afff9128f7b6", preview_id = "14e91f3ac2fd4f3985b9062f4f2582e3" }
 ]
 
 [env.production.vars]
 GRAPH_JSON_COLLECTION = "jsonhero-prod"
 
 # Secrets
-# [SESSION_STORAGE]
+# [SESSION_STORAGE] = 8d581bf0a6d54e63e435768aa2ccaabd94c57b9c4e48bb4113106f35b97b6734
 # [GRAPH_JSON_API_KEY]
 # [PEEKALINK_API_KEY]
 # [APIHERO_PROJECT_KEY]

@@ -1,11 +1,11 @@
 type = "javascript"
 compatibility_date = "2022-02-01"
 
-account_id = "c974caaaa18255c03f1771097bade662"
+account_id = "c71b1eab1ad31ccbb2292a2665edd5d7"
 workers_dev = true
 
 kv_namespaces = [ 
-  { binding = "DOCUMENTS", id = "a90ce96eb26c4989a1232db27e864ed6" }
+  { binding = "DOCUMENTS", id = "8059edfbbb774fb39e95094d43909b96", preview_id = "14e91f3ac2fd4f3985b9062f4f2582e3" }
 ]
 
 [vars]
@@ -13,7 +13,7 @@ GRAPH_JSON_COLLECTION = "jsonhero-dev"
 
 [site]
 bucket = "./public"
-entry-point = "."
+entry-point = "https://muddy-lab-61c8.cherry123.workers.dev"
 
 [build]
 command = "npm run build:worker"
@@ -24,7 +24,7 @@ format="service-worker"
 
 [env.production]
 kv_namespaces = [ 
-  { binding = "DOCUMENTS", id = "a90ce96eb26c4989a1232db27e864ed6" }
+  { binding = "DOCUMENTS", id = "a90ce96eb26c4989a1232db27e864ed6", preview_id = "14e91f3ac2fd4f3985b9062f4f2582e3" }
 ]
 
 [env.production.vars]
