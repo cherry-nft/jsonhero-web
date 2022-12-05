@@ -8,7 +8,7 @@
       "type": "chrome",
       "request": "launch",
       "name": "Launch Chrome against localhost with document",
-      "url": "https://muddy-lab-61c8.cherry123.workers.dev",
+      "url": "https://muddy-lab-61c8.cherry123.workers.dev/",
       "webRoot": "${workspaceFolder}/app"
     },
     {
